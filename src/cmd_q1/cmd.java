@@ -150,7 +150,7 @@ public class cmd extends javax.swing.JFrame {
                         jTextArea1.append("\nError: " + nombreCarpetaCD + " no es una carpeta\n");
                     }
                     break;
-                case "...":
+                case "cd...":
                     File carpetaAnterior = carpetaActual.getParentFile();
                     if (carpetaAnterior != null) {
                         System.setProperty("user.dir", carpetaAnterior.getAbsolutePath());
